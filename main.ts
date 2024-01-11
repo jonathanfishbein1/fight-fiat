@@ -238,7 +238,7 @@ sprites.onOverlap(SpriteKindLegacy.Enemy, SpriteKindLegacy.Fortress, function (s
 function createSplashBase () {
     splashBase = image.create(scene.screenWidth(), scene.screenHeight())
     splashBase.fill(15)
-    text_list = ["SPACE", "INVADERS!"]
+    text_list = ["FIGHT", "FIAT!"]
     currFont = drawStrings.createFontInfo(FontName.Font8, 2)
     drawStrings.writeMultipleCenter(
     text_list,
