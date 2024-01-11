@@ -544,7 +544,7 @@ function initAliens () {
 }
 function buildSplashScreens () {
     splashScreens = []
-    headlines = [["Space Invaders"], [], []]
+    headlines = [["Powered By Starcada"], [], []]
     currFont = drawStrings.createFontInfo(FontName.Font5)
     for (let value of headlines) {
         splashScreen = splashBase.clone()
