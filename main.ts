@@ -582,12 +582,12 @@ function resetPlayer () {
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
-        . . . . . . . 7 7 . . . . . . . 
-        . . . . . 7 7 7 7 7 7 . . . . . 
-        . . . . . 7 7 7 7 7 7 . . . . . 
-        . 7 7 7 7 7 7 7 7 7 7 7 7 7 7 . 
-        7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
-        7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 
+        5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 
+        5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 
         `, SpriteKindLegacy.Player)
     player2.setPosition(scene.screenWidth() / 2, scene.screenHeight() - player2.height / 2)
     player2.setFlag(SpriteFlag.StayInScreen, true)
