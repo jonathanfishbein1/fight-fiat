@@ -373,40 +373,16 @@ function resetAliens () {
                 . . . . . . . . . . . . . . . . 
                 . . . . . . . . . . . . . . . . 
                 `, SpriteKindLegacy.Enemy)
-            if (row == 0) {
-                alien.setImage(img`
-                    . . . 1 1 . . . 
-                    . . 1 1 1 1 . . 
-                    . 1 1 1 1 1 1 . 
-                    1 1 1 1 1 1 1 1 
-                    1 1 f 1 1 f 1 1 
-                    . . 1 . . 1 . . 
-                    . 1 . 1 1 . 1 . 
-                    1 . 1 . . 1 . 1 
-                    `)
-            } else if (row == 1) {
-                alien.setImage(img`
-                    . 1 . . . . 1 . 
-                    . . 1 . . 1 . . 
-                    1 . 1 1 1 1 . 1 
-                    1 1 f . . f 1 1 
-                    1 1 1 1 1 1 1 1 
-                    . 1 1 1 1 1 1 . 
-                    . . 1 . . 1 . . 
-                    . 1 . . . . 1 . 
-                    `)
-            } else {
-                alien.setImage(img`
-                    . . . 1 1 . . . 
-                    . 1 1 1 1 1 1 . 
-                    1 1 1 1 1 1 1 1 
-                    1 f f 1 1 f f 1 
-                    1 1 1 1 1 1 1 1 
-                    . . 1 . . 1 . . 
-                    . 1 . . . . 1 . 
-                    1 . . 1 1 . . 1 
-                    `)
-            }
+            alien.setImage(img`
+                . . . . . . . . 
+                . . . . 1 . . . 
+                . . 1 1 1 1 . . 
+                . . 1 . . . . . 
+                . . 1 . . . . . 
+                . . 1 1 1 1 . . 
+                . . . . 1 . . . 
+                . . . . . . . . 
+                `)
             alienX = col * (alien.width + spacing) + spacing + leftMargin
             alienY = row * (alien.height + spacing) + topMargin
             alien.setPosition(alienX, alienY)
