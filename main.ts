@@ -130,7 +130,7 @@ function destroyAlien () {
     if (alienImage.getPixel(8, 0) == 2) {
         scoreDelta = spaceshipScoreIncrement * randint(1, spaceshipMaxIncrements)
     } else if (alienImage.getPixel(2, 4) == 15) {
-        scoreDelta = alienType3Score
+    	
     } else if (alienImage.getPixel(1, 3) == 15) {
         scoreDelta = alienType1Score
     } else {
@@ -236,6 +236,7 @@ sprites.onOverlap(SpriteKindLegacy.Enemy, SpriteKindLegacy.Fortress, function (s
     otherSprite.destroy(effects.spray, 500)
 })
 function createSplashBase () {
+    let alienType3Score = 0
     splashBase = image.create(scene.screenWidth(), scene.screenHeight())
     splashBase.fill(15)
     text_list = ["FIGHT", "FIAT!"]
@@ -691,12 +692,10 @@ let destroyedAlien: Sprite = null
 let spaceshipSpeed = 0
 let spaceship: Sprite = null
 let aliensShiftAmt = 0
-let alienType3Score = 0
 let alienType2Score = 0
 let alienType1Score = 0
 alienType1Score = 10
-alienType2Score = 20
-alienType3Score = 30
+alienType2Score = 30
 startAttractMode()
 game.onUpdate(function () {
     if (noUpdates == 0) {
