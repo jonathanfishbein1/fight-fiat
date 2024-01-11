@@ -236,7 +236,6 @@ sprites.onOverlap(SpriteKindLegacy.Enemy, SpriteKindLegacy.Fortress, function (s
     otherSprite.destroy(effects.spray, 500)
 })
 function createSplashBase () {
-    let alienType3Score = 0
     splashBase = image.create(scene.screenWidth(), scene.screenHeight())
     splashBase.fill(15)
     text_list = ["FIGHT", "FIAT!"]
@@ -257,12 +256,7 @@ function createSplashBase () {
     1,
     currFont
     )
-    text_list = [
-    "= " + alienType1Score + " points",
-    "= " + alienType2Score + " points",
-    "= " + alienType3Score + " points",
-    "= ? Mystery"
-    ]
+    text_list = ["= " + alienType1Score + " points", "= " + alienType2Score + " points"]
     drawStrings.writeMultiple(
     text_list,
     splashBase,
@@ -270,7 +264,7 @@ function createSplashBase () {
     scene.screenHeight() / 2 + 0,
     1,
     currFont,
-    2
+    8
     )
 }
 function showSplashScreen () {
@@ -286,60 +280,38 @@ function showSplashScreen () {
 }
 function addGhostEnemies () {
     attractSprite = sprites.create(img`
-        . . . 1 1 . . . 
-        . 1 1 1 1 1 1 . 
-        1 1 1 1 1 1 1 1 
-        1 f f 1 1 f f 1 
-        1 1 1 1 1 1 1 1 
-        . . 1 . . 1 . . 
-        . 1 . . . . 1 . 
-        1 . . 1 1 . . 1 
+        . . . . . . . . 
+        . . . . 1 . . . 
+        . . 1 1 1 1 . . 
+        . . 1 . . . . . 
+        . . 1 . . . . . 
+        . . 1 1 1 1 . . 
+        . . . . 1 . . . 
+        . . . . . . . . 
         `, SpriteKindLegacy.Enemy)
     currX = scene.screenWidth() / 2 - 10
     currY = scene.screenHeight() / 2 + 4
     attractSprite.setPosition(currX, currY)
     attractSprite.setFlag(SpriteFlag.Ghost, true)
-    attractSprite = sprites.create(img`
-        . 1 . . . . 1 . 
-        . . 1 . . 1 . . 
-        1 . 1 1 1 1 . 1 
-        1 1 f 1 1 f 1 1 
-        1 1 1 1 1 1 1 1 
-        . 1 1 1 1 1 1 . 
-        . . 1 . . 1 . . 
-        . 1 . . . . 1 . 
-        `, SpriteKindLegacy.Enemy)
-    currY += 10
+    attractSprite.setPosition(currX, currY)
+    attractSprite.setFlag(SpriteFlag.Ghost, true)
     attractSprite.setPosition(currX, currY)
     attractSprite.setFlag(SpriteFlag.Ghost, true)
     attractSprite = sprites.create(img`
-        . . . 1 1 . . . 
-        . . 1 1 1 1 . . 
-        . 1 1 1 1 1 1 . 
-        1 1 1 1 1 1 1 1 
-        1 1 f 1 1 f 1 1 
-        . . 1 . . 1 . . 
-        . 1 . 1 1 . 1 . 
-        1 . 1 . . 1 . 1 
-        `, SpriteKindLegacy.Enemy)
-    currY += 10
-    attractSprite.setPosition(currX, currY)
-    attractSprite.setFlag(SpriteFlag.Ghost, true)
-    attractSprite = sprites.create(img`
-        . . . . . 2 2 2 2 2 2 . . . . . 
-        . . . 2 2 2 2 2 2 2 2 2 2 . . . 
-        . . 2 2 2 2 2 2 2 2 2 2 2 2 . . 
-        . 2 2 f 2 f 2 f f 2 f 2 f 2 2 . 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        . 2 2 2 . . 2 2 2 2 . . 2 2 2 . 
-        . . 2 . . . . . . . . . . 2 . . 
         . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
+        . . . . . 7 . . . 7 . . . . . . 
+        . . . 7 7 7 7 7 7 7 7 7 . . . . 
+        . . . 7 . 7 . . . 7 . . . . . . 
+        . . . 7 . 7 . . . 7 . . . . . . 
+        . . . 7 . 7 . . . 7 . . . . . . 
+        . . . 7 . 7 . . . 7 . . . . . . 
+        . . . 7 7 7 7 7 7 7 7 7 . . . . 
+        . . . . . 7 . . . 7 . 7 . . . . 
+        . . . . . 7 . . . 7 . 7 . . . . 
+        . . . . . 7 . . . 7 . 7 . . . . 
+        . . . . . 7 . . . 7 . 7 . . . . 
+        . . . 7 7 7 7 7 7 7 7 7 . . . . 
+        . . . . . 7 . . . 7 . . . . . . 
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
         `, SpriteKindLegacy.Enemy)
