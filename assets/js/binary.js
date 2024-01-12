@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.46/---simulator?hideSimButtons=1","cdnUrl":"https://pxt.azureedge.net","version":"1.1.5","target":"arcade","targetVersion":"1.12.46","repo":"jonathanfishbein1/fight-fiat"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.46/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"1.1.6","target":"arcade","targetVersion":"1.12.46","repo":"jonathanfishbein1/fight-fiat"}
 // total=1886665 new=9.15% cached=85.92% other=4.92%
 (function (ectx) {
 'use strict';
@@ -541,7 +541,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P241407(s) {
+function _main___P241514(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1143,13 +1143,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P241407.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/arcade-browser/main.ts","functionName":"<main>","argumentNames":[]}
-_main___P241407.continuations = [  ]
+_main___P241514.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/arcade-browser/main.ts","functionName":"<main>","argumentNames":[]}
+_main___P241514.continuations = [  ]
 
-function _main___P241407_mk(s) {
+function _main___P241514_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P241407, depth: s.depth + 1,
+        parent: s, fn: _main___P241514, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -6202,8 +6202,8 @@ switch (step) {
   case 0:
 
     s.value___224571 = undefined;
-    s.unnamed3672___U1 = undefined;
-    s.unnamed3673___U2 = undefined;
+    s.unnamed3700___U1 = undefined;
+    s.unnamed3701___U2 = undefined;
     s.index___224573 = undefined;
     s.tmp_0 = createStarfield__P221192_mk(s);
     s.callLocIdx = 188; s.pc = 5; return s.tmp_0;
@@ -6219,15 +6219,15 @@ switch (step) {
     r0 = pxsim_Array__push(s.tmp_0, 8);
     globals.fortressPositions___221203 = (s.tmp_0);
     s.value___224571 = (undefined);
-    s.unnamed3672___U1 = (globals.fortressPositions___221203);
-    s.unnamed3673___U2 = (0);
+    s.unnamed3700___U1 = (globals.fortressPositions___221203);
+    s.unnamed3701___U2 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed3673___U2;
-    r0 = pxsim_Array__length(s.unnamed3672___U1);
+    s.tmp_0 = r0 = s.unnamed3701___U2;
+    r0 = pxsim_Array__length(s.unnamed3700___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 4; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed3672___U1, s.unnamed3673___U2);
+    r0 = pxsim_Array__getAt(s.unnamed3700___U1, s.unnamed3701___U2);
     s.value___224571 = (r0);
     s.index___224573 = (0);
   case 2:
@@ -6260,11 +6260,11 @@ switch (step) {
     s.index___224573 = (r0);
     { step = 2; continue; }
   case 3:
-    r0 = (s.unnamed3673___U2 + 1);
-    s.unnamed3673___U2 = (r0);
+    r0 = (s.unnamed3701___U2 + 1);
+    s.unnamed3701___U2 = (r0);
     { step = 1; continue; }
   case 4:
-    s.unnamed3672___U1 = (undefined);
+    s.unnamed3700___U1 = (undefined);
     r0 = undefined;
     return leave(s, r0)
   default: oops()
@@ -6280,8 +6280,8 @@ function initScreen__P221181_mk(s) {
   tmp_1: undefined,
   tmp_2: undefined,
   value___224571: undefined,
-  unnamed3672___U1: undefined,
-  unnamed3673___U2: undefined,
+  unnamed3700___U1: undefined,
+  unnamed3701___U2: undefined,
   index___224573: undefined,
 } }
 
@@ -21462,8 +21462,8 @@ switch (step) {
   case 0:
 
     s.value___224133 = undefined;
-    s.unnamed3670___U1 = undefined;
-    s.unnamed3671___U2 = undefined;
+    s.unnamed3698___U1 = undefined;
+    s.unnamed3699___U2 = undefined;
     s.tmp_0 = sprites_allOfKind__P219084_mk(s);
     s.tmp_0.arg0 = 3;
     s.callLocIdx = 119; s.pc = 5; return s.tmp_0;
@@ -21476,22 +21476,22 @@ switch (step) {
     s.callLocIdx = 120; s.pc = 6; return s.tmp_0;
   case 6:
     r0 = s.retval;
-    s.unnamed3670___U1 = (r0);
-    s.unnamed3671___U2 = (0);
+    s.unnamed3698___U1 = (r0);
+    s.unnamed3699___U2 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed3671___U2;
-    r0 = pxsim_Array__length(s.unnamed3670___U1);
+    s.tmp_0 = r0 = s.unnamed3699___U2;
+    r0 = pxsim_Array__length(s.unnamed3698___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 2; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed3670___U1, s.unnamed3671___U2);
+    r0 = pxsim_Array__getAt(s.unnamed3698___U1, s.unnamed3699___U2);
     s.value___224133 = (r0);
     r0 = pxsim_Array__push(globals.sprite_list___221249, s.value___224133);
-    r0 = (s.unnamed3671___U2 + 1);
-    s.unnamed3671___U2 = (r0);
+    r0 = (s.unnamed3699___U2 + 1);
+    s.unnamed3699___U2 = (r0);
     { step = 1; continue; }
   case 2:
-    s.unnamed3670___U1 = (undefined);
+    s.unnamed3698___U1 = (undefined);
     r0 = pxsim_Array__length(globals.sprite_list___221249);
     s.tmp_1 = r0;
     r0 = (s.tmp_1 > 0);
@@ -21566,8 +21566,8 @@ function alienShoot__P221171_mk(s) {
   tmp_4: undefined,
   tmp_5: undefined,
   value___224133: undefined,
-  unnamed3670___U1: undefined,
-  unnamed3671___U2: undefined,
+  unnamed3698___U1: undefined,
+  unnamed3699___U2: undefined,
 } }
 
 const _hex224156 = pxsim.BufferMethods.createBufferFromHex("87040800080000000000000000000000010000001000000011111111100000000100000000000000")
@@ -22204,23 +22204,23 @@ switch (step) {
   case 0:
 
     s.value___224627 = undefined;
-    s.unnamed3674___U1 = undefined;
-    s.unnamed3675___U2 = undefined;
+    s.unnamed3702___U1 = undefined;
+    s.unnamed3703___U2 = undefined;
     s.value___224627 = (undefined);
     s.tmp_0 = sprites_allOfKind__P219084_mk(s);
     s.tmp_0.arg0 = 3;
     s.callLocIdx = 196; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
-    s.unnamed3674___U1 = (r0);
-    s.unnamed3675___U2 = (0);
+    s.unnamed3702___U1 = (r0);
+    s.unnamed3703___U2 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed3675___U2;
-    r0 = pxsim_Array__length(s.unnamed3674___U1);
+    s.tmp_0 = r0 = s.unnamed3703___U2;
+    r0 = pxsim_Array__length(s.unnamed3702___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 2; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed3674___U1, s.unnamed3675___U2);
+    r0 = pxsim_Array__getAt(s.unnamed3702___U1, s.unnamed3703___U2);
     s.value___224627 = (r0);
     s.tmp_2 = Sprite_x__P219161_mk(s);
     s.tmp_3 = r0 = s.value___224627;
@@ -22236,11 +22236,11 @@ switch (step) {
     s.callLocIdx = 198; s.pc = 4; return s.tmp_2;
   case 4:
     r0 = s.retval;
-    r0 = (s.unnamed3675___U2 + 1);
-    s.unnamed3675___U2 = (r0);
+    r0 = (s.unnamed3703___U2 + 1);
+    s.unnamed3703___U2 = (r0);
     { step = 1; continue; }
   case 2:
-    s.unnamed3674___U1 = (undefined);
+    s.unnamed3702___U1 = (undefined);
     r0 = undefined;
     return leave(s, r0)
   default: oops()
@@ -22259,8 +22259,8 @@ function moveAliensHoriz__P221183_mk(s) {
   tmp_4: undefined,
   tmp_5: undefined,
   value___224627: undefined,
-  unnamed3674___U1: undefined,
-  unnamed3675___U2: undefined,
+  unnamed3702___U1: undefined,
+  unnamed3703___U2: undefined,
 } }
 
 
@@ -22438,23 +22438,23 @@ switch (step) {
   case 0:
 
     s.value___223900 = undefined;
-    s.unnamed3666___U1 = undefined;
-    s.unnamed3667___U2 = undefined;
+    s.unnamed3694___U1 = undefined;
+    s.unnamed3695___U2 = undefined;
     s.value___223900 = (undefined);
     s.tmp_0 = sprites_allOfKind__P219084_mk(s);
     s.tmp_0.arg0 = 3;
     s.callLocIdx = 68; s.pc = 5; return s.tmp_0;
   case 5:
     r0 = s.retval;
-    s.unnamed3666___U1 = (r0);
-    s.unnamed3667___U2 = (0);
+    s.unnamed3694___U1 = (r0);
+    s.unnamed3695___U2 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed3667___U2;
-    r0 = pxsim_Array__length(s.unnamed3666___U1);
+    s.tmp_0 = r0 = s.unnamed3695___U2;
+    r0 = pxsim_Array__length(s.unnamed3694___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 4; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed3666___U1, s.unnamed3667___U2);
+    r0 = pxsim_Array__getAt(s.unnamed3694___U1, s.unnamed3695___U2);
     s.value___223900 = (r0);
     s.tmp_2 = Sprite_y__P219163_mk(s);
     s.tmp_3 = r0 = s.value___223900;
@@ -22500,11 +22500,11 @@ switch (step) {
     r0 = s.retval;
   case 2:
   case 3:
-    r0 = (s.unnamed3667___U2 + 1);
-    s.unnamed3667___U2 = (r0);
+    r0 = (s.unnamed3695___U2 + 1);
+    s.unnamed3695___U2 = (r0);
     { step = 1; continue; }
   case 4:
-    s.unnamed3666___U1 = (undefined);
+    s.unnamed3694___U1 = (undefined);
     r0 = undefined;
     return leave(s, r0)
   default: oops()
@@ -22526,8 +22526,8 @@ function moveAliensDown__P221166_mk(s) {
   tmp_7: undefined,
   tmp_8: undefined,
   value___223900: undefined,
-  unnamed3666___U1: undefined,
-  unnamed3667___U2: undefined,
+  unnamed3694___U1: undefined,
+  unnamed3695___U2: undefined,
 } }
 
 
@@ -22741,23 +22741,23 @@ switch (step) {
   case 0:
 
     s.value___224752 = undefined;
-    s.unnamed3678___U1 = undefined;
-    s.unnamed3679___U2 = undefined;
+    s.unnamed3706___U1 = undefined;
+    s.unnamed3707___U2 = undefined;
     s.value___224752 = (undefined);
     s.tmp_0 = sprites_allOfKind__P219084_mk(s);
     s.tmp_0.arg0 = 0;
     s.callLocIdx = 215; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
-    s.unnamed3678___U1 = (r0);
-    s.unnamed3679___U2 = (0);
+    s.unnamed3706___U1 = (r0);
+    s.unnamed3707___U2 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed3679___U2;
-    r0 = pxsim_Array__length(s.unnamed3678___U1);
+    s.tmp_0 = r0 = s.unnamed3707___U2;
+    r0 = pxsim_Array__length(s.unnamed3706___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 2; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed3678___U1, s.unnamed3679___U2);
+    r0 = pxsim_Array__getAt(s.unnamed3706___U1, s.unnamed3707___U2);
     s.value___224752 = (r0);
     s.tmp_2 = Sprite_destroy__P219234_mk(s);
     s.tmp_2.arg0 = s.value___224752;
@@ -22766,11 +22766,11 @@ switch (step) {
     s.callLocIdx = 216; s.pc = 4; return s.tmp_2;
   case 4:
     r0 = s.retval;
-    r0 = (s.unnamed3679___U2 + 1);
-    s.unnamed3679___U2 = (r0);
+    r0 = (s.unnamed3707___U2 + 1);
+    s.unnamed3707___U2 = (r0);
     { step = 1; continue; }
   case 2:
-    s.unnamed3678___U1 = (undefined);
+    s.unnamed3706___U1 = (undefined);
     s.tmp_0 = sprites_create__P219081_mk(s);
     r0 = pxsim.image.ofBuffer(_hex224763);
     s.tmp_0.arg0 = r0;
@@ -22833,8 +22833,8 @@ function resetPlayer__P221190_mk(s) {
   tmp_4: undefined,
   tmp_5: undefined,
   value___224752: undefined,
-  unnamed3678___U1: undefined,
-  unnamed3679___U2: undefined,
+  unnamed3706___U1: undefined,
+  unnamed3707___U2: undefined,
 } }
 
 const _hex224763 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000005055000000000000505500000000000050550000000000005055000000000000505500000000000050550000000000005055000000000000505500000000000050550000000000005055000000000000505500000000000050550000000000005055000000000000505500000000000050550000000000005055")
@@ -23558,8 +23558,8 @@ switch (step) {
   case 0:
 
     s.value___224715 = undefined;
-    s.unnamed3676___U1 = undefined;
-    s.unnamed3677___U2 = undefined;
+    s.unnamed3704___U1 = undefined;
+    s.unnamed3705___U2 = undefined;
     r0 = pxsim_Array__mk();
     globals.splashScreens___221225 = (r0);
     r0 = pxsim_Array__mk();
@@ -23577,15 +23577,15 @@ switch (step) {
     r0 = s.retval;
     globals.currFont___221231 = (r0);
     s.value___224715 = (undefined);
-    s.unnamed3676___U1 = (globals.headlines___221197);
-    s.unnamed3677___U2 = (0);
+    s.unnamed3704___U1 = (globals.headlines___221197);
+    s.unnamed3705___U2 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed3677___U2;
-    r0 = pxsim_Array__length(s.unnamed3676___U1);
+    s.tmp_0 = r0 = s.unnamed3705___U2;
+    r0 = pxsim_Array__length(s.unnamed3704___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 2; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed3676___U1, s.unnamed3677___U2);
+    r0 = pxsim_Array__getAt(s.unnamed3704___U1, s.unnamed3705___U2);
     s.value___224715 = (r0);
     r0 = pxsim_ImageMethods.clone(globals.splashBase___221233);
     globals.splashScreen___221196 = (r0);
@@ -23600,11 +23600,11 @@ switch (step) {
   case 4:
     r0 = s.retval;
     r0 = pxsim_Array__push(globals.splashScreens___221225, globals.splashScreen___221196);
-    r0 = (s.unnamed3677___U2 + 1);
-    s.unnamed3677___U2 = (r0);
+    r0 = (s.unnamed3705___U2 + 1);
+    s.unnamed3705___U2 = (r0);
     { step = 1; continue; }
   case 2:
-    s.unnamed3676___U1 = (undefined);
+    s.unnamed3704___U1 = (undefined);
     r0 = undefined;
     return leave(s, r0)
   default: oops()
@@ -23619,8 +23619,8 @@ function buildSplashScreens__P221188_mk(s) {
   tmp_0: undefined,
   tmp_1: undefined,
   value___224715: undefined,
-  unnamed3676___U1: undefined,
-  unnamed3677___U2: undefined,
+  unnamed3704___U1: undefined,
+  unnamed3705___U2: undefined,
 } }
 
 
@@ -36501,8 +36501,8 @@ switch (step) {
   case 0:
 
     s.value___224094 = undefined;
-    s.unnamed3668___U1 = undefined;
-    s.unnamed3669___U2 = undefined;
+    s.unnamed3696___U1 = undefined;
+    s.unnamed3697___U2 = undefined;
     globals.attractMode___221259 = (0);
     s.value___224094 = (undefined);
     s.tmp_0 = sprites_allOfKind__P219084_mk(s);
@@ -36510,15 +36510,15 @@ switch (step) {
     s.callLocIdx = 108; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
-    s.unnamed3668___U1 = (r0);
-    s.unnamed3669___U2 = (0);
+    s.unnamed3696___U1 = (r0);
+    s.unnamed3697___U2 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed3669___U2;
-    r0 = pxsim_Array__length(s.unnamed3668___U1);
+    s.tmp_0 = r0 = s.unnamed3697___U2;
+    r0 = pxsim_Array__length(s.unnamed3696___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 2; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed3668___U1, s.unnamed3669___U2);
+    r0 = pxsim_Array__getAt(s.unnamed3696___U1, s.unnamed3697___U2);
     s.value___224094 = (r0);
     s.tmp_2 = Sprite_destroy__P219234_mk(s);
     s.tmp_2.arg0 = s.value___224094;
@@ -36527,11 +36527,11 @@ switch (step) {
     s.callLocIdx = 109; s.pc = 4; return s.tmp_2;
   case 4:
     r0 = s.retval;
-    r0 = (s.unnamed3669___U2 + 1);
-    s.unnamed3669___U2 = (r0);
+    r0 = (s.unnamed3697___U2 + 1);
+    s.unnamed3697___U2 = (r0);
     { step = 1; continue; }
   case 2:
-    s.unnamed3668___U1 = (undefined);
+    s.unnamed3696___U1 = (undefined);
     s.tmp_0 = initScreen__P221181_mk(s);
     s.callLocIdx = 110; s.pc = 5; return s.tmp_0;
   case 5:
@@ -36564,8 +36564,8 @@ function startGame__P221170_mk(s) {
   tmp_1: undefined,
   tmp_2: undefined,
   value___224094: undefined,
-  unnamed3668___U1: undefined,
-  unnamed3669___U2: undefined,
+  unnamed3696___U1: undefined,
+  unnamed3697___U2: undefined,
 } }
 
 
@@ -63656,5 +63656,5 @@ const sprites_BaseSpriteSayRenderer__C219065_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["destroyedAlien___221262","struckFortress___221261","attractMode___221259","noUpdates___221251","playerDestroyed___221250","alienType1Score___221267","alienType2Score___221266","playerRespawnTime___221195","nextAlienMove___221199","alienShotChance___221238","spaceshipChance___221240","nextSplashRotate___221226","splashScreensBuilt___221229","currSplashScreen___221228","splashScreens___221225","splashRotateInterval___221227","numEnemies___221201","currLevel___221241","maxSpaceshipChance___221239","maxAlienShotChance___221237","currAlienPause___221252","initAlienPause___221236","alienPauseDelta___221235","minAlienPause___221234","heartbeatNote___221221","initHeartbeatTempo___221220","tempAlienShotChance___221219","aliensMoveLeft___221218","numRows___221217","numCols___221216","alien___221215","alienX___221214","spacing___221213","leftMargin___221212","alienY___221211","topMargin___221210","numAliensNextSpeedup___221253","numAliensStart___221209","fortressPositions___221203","fortress___221202","numStars___221194","background___221193","spaceship___221264","spaceshipSpeed___221263","sprite_list___221249","firingAlien___221248","alienShot___221247","shotSpeed___221246","aliensMoveDown___221208","aliensShiftAmt___221265","alienDelta___221207","heartbeatNotes___221206","player2___221204","attractSprite___221224","currX___221223","currY___221222","headlines___221197","currFont___221231","splashScreen___221196","splashBase___221233","headlinesY___221230","text_list___221232","maxShots___221245","projectile___221205","playerSpawnDelay___221244","extraLifeScore___221243","nextLifeScore___221242","spaceshipScoreIncrement___221256","spaceshipMaxIncrements___221255","initSpaceshipChance___221200","initAlienShotChance___221198","fortressImage___221260","alienImage___221258","scoreDelta___221257","numAliensCurr___221254"])
 
-return _main___P241407
+return _main___P241514
 })
