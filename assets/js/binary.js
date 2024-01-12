@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.46/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"1.1.6","target":"arcade","targetVersion":"1.12.46","repo":"jonathanfishbein1/fight-fiat"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.46/---simulator?hideSimButtons=1","cdnUrl":"https://pxt.azureedge.net","version":"1.1.6","target":"arcade","targetVersion":"1.12.46","repo":"jonathanfishbein1/fight-fiat"}
 // total=1886665 new=9.15% cached=85.92% other=4.92%
 (function (ectx) {
 'use strict';
