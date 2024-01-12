@@ -540,7 +540,7 @@ function destroyPlayer () {
         music.powerDown.play()
     } else {
         game.setGameOverMessage(false, "GAME OVER custom!")
-        web.open("https://makecode.com/")
+        web.open(info.score().toString())
     }
 }
 function resetPlayer () {
