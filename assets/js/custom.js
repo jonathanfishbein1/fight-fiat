@@ -11,9 +11,9 @@
  */
 addSimMessageHandler('web', data => {
     console.log('addSimMessageHandler')
-    // const targetWindow = window.parent
-    // console.log('window ', window)
-    // console.log('targetWindow ', targetWindow)
-    // console.log('data', data)
-    // targetWindow.postMessage(data, 'http://localhost:8080/fight_fiat')
+    const targetWindow = window.parent
+    console.log('window ', window)
+    console.log('targetWindow ', targetWindow)
+    console.log('data', data)
+    targetWindow.postMessage(data, 'http://localhost:8080/fight_fiat')
 })
