@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.46/---simulator?simParams=background-color%3Dabcdef%26","cdnUrl":"https://pxt.azureedge.net","version":"1.2.0","target":"arcade","targetVersion":"1.12.46","repo":"jonathanfishbein1/fight-fiat"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.46/---simulator?simParams=background-color%3Dabcdef%26button-fill%3D123456%26button-stroke%3D654321%26text-color%3Dfedcba%26dpad-fill%3Dabc123","cdnUrl":"https://pxt.azureedge.net","version":"1.2.0","target":"arcade","targetVersion":"1.12.46","repo":"jonathanfishbein1/fight-fiat"}
 // total=1886825 new=9.16% cached=85.92% other=4.92%
 (function (ectx) {
 'use strict';
