@@ -58,7 +58,7 @@ function makeCodeRun(options) {
             storedState: simState,
             frameCounter: 1,
             options: {
-                "theme": "green",
+                "theme": "blue",
                 "player": ""
             },
             id: "green-" + Math.random()
