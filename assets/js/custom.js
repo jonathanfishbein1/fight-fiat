@@ -9,3 +9,10 @@
  * 
  * To register a constrol simmessages, use addSimMessageHandler
  */
+addSimMessageHandler("web", (data) => {
+    console.log('addSimMessageHandler')
+    const targetWindow = window.parent
+    console.log('window ', window)
+    console.log('targetWindow ', targetWindow)
+    targetWindow.postMessage('hello from iframe', '*')
+})
