@@ -14,5 +14,5 @@ addSimMessageHandler("web", (data) => {
     const targetWindow = window.parent
     console.log('window ', window)
     console.log('targetWindow ', targetWindow)
-    targetWindow.postMessage('hello from iframe', '*')
+    targetWindow.postMessage(data, '*')
 })
