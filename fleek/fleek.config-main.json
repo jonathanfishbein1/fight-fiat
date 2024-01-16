@@ -1,0 +1,8 @@
+{
+  "sites": [
+    {
+      "slug": "fast-egg-raspy",
+      "distDir": "./assets"
+    }
+  ]
+}
