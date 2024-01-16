@@ -199,7 +199,7 @@ function alienShoot () {
 }
 function initPlayer () {
     info.setScore(0)
-    info.setLife(1)
+    info.setLife(3)
     maxShots = 1
     // Time in milliseconds after player is destroyed before it will respawn.
     playerSpawnDelay = 2500
@@ -539,7 +539,7 @@ function destroyPlayer () {
     if (info.life() > 0) {
         music.powerDown.play()
     } else {
-        game.setGameOverMessage(false, "GAME OVER custom!")
+        game.setGameOverMessage(false, "GAME OVER!")
         web.open(info.score().toString())
     }
 }
