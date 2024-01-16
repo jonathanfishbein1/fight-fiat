@@ -1,0 +1,8 @@
+{
+  "sites": [
+    {
+      "slug": "steep-fountain-thundering",
+      "distDir": "./assets"
+    }
+  ]
+}
