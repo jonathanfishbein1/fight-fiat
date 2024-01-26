@@ -1,8 +1,8 @@
 {
   "sites": [
     {
-      "slug": "steep-fountain-thundering",
-      "distDir": "./"
+      "slug": "loud-forest-shallow",
+      "distDir": "."
     }
   ]
 }

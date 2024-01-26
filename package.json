@@ -5,7 +5,8 @@
   "main": "indext.html",
   "scripts": {
     "build-develop": "cp ./fleek/fleek.config-develop.json ./assets/fleek.config.json",
-    "build-main": "cp ./fleek/fleek.config-main.json ./assets/fleek.config.json"
+    "build-main-desktop": "cp ./fleek/fleek.config-main-desktop.json ./assets/fleek.config.json",
+    "build-main-mobile": "cp ./fleek/fleek.config-main-main.json ./assets/fleek.config.json"
   },
   "author": "",
   "license": "ISC"
