@@ -11,11 +11,11 @@ readFile('./assets/js/binary.js', 'utf-8', (err, contents) => {
     console.log(process.argv[2])
     let replacementString
     if (process.argv[2] === 'develop')
-        replacementString = 'colossal-park-low.on-fleek.app/'
+        replacementString = 'https://simulator-mobile.starcada.io/'
     else if (process.argv[2] === 'main-desktop')
-        replacementString = 'loud-forest-shallow.on-fleek.app/'
+        replacementString = 'https://simulator-desktop.starcada.io/'
     else
-        replacementString = 'https://early-lizard-shrilling.on-fleek.app/'
+        replacementString = 'https://simulator-mobile.starcada.io/'
 
     const replaced = contents.replace(
         'https://trg-arcade.userpxt.io/v1.12.46/---simulator',
