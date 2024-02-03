@@ -16,9 +16,10 @@ readFile('./assets/js/binary.js', 'utf-8', (err, contents) => {
         replacementString = 'https://simulator-desktop.starcada.io/'
     else
         replacementString = 'https://simulator-mobile.starcada.io/'
-
+    const url = contents.match('("simUrl":)"([^A-Z\n]*)(,)')
+    console.log('url ', url)
     const replaced = contents.replace(
-        'https://trg-arcade.userpxt.io/v1.12.46/---simulator',
+        url[2],
         replacementString
     )
     
