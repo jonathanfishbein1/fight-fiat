@@ -1,8 +1,8 @@
 {
   "sites": [
     {
-      "slug": "loud-forest-shallow",
-      "distDir": "."
+      "slug": "tiny-microphone-hundreds",
+      "distDir": "./"
     }
   ]
 }

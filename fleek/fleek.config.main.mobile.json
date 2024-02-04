@@ -2,7 +2,7 @@
   "sites": [
     {
       "slug": "full-rocket-curved",
-      "distDir": "."
+      "distDir": "./"
     }
   ]
 }

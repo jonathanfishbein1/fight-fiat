@@ -2,7 +2,7 @@
   "sites": [
     {
       "slug": "colossal-park-low",
-      "distDir": "."
+      "distDir": "./"
     }
   ]
 }
