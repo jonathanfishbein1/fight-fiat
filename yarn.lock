@@ -230,6 +230,13 @@ create-require@^1.1.0:
   resolved "https://registry.yarnpkg.com/create-require/-/create-require-1.1.1.tgz#c1d7e8f1e5f6cfc9ff65f9cd352d37348756c333"
   integrity sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==
 
+dafo@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/dafo/-/dafo-0.1.1.tgz#dad59de0ceac606f73f86cbaae893412ffb1d836"
+  integrity sha512-18XhtDt5qQ5pAfWzo1t3mRXQPanY8diFQFjCxh+/0mko5QHztCv6oLgPL9kKxB8aeYutp8lWC7BqjGzC8GWX1w==
+  dependencies:
+    noda "^0.1.2"
+
 dag-jose@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/dag-jose/-/dag-jose-1.0.0.tgz#52e42d70cb5bee31ae4e8e3ab860615568d7ad73"
@@ -244,6 +251,15 @@ debug@^4.1.1, debug@^4.3.1:
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
   dependencies:
     ms "2.1.2"
+
+deno@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/deno/-/deno-0.1.1.tgz#b35da9ad0938ee064ba963b06caee60e55e5522c"
+  integrity sha512-vdXCOZOXXgRUFPIV2HbyBBT+u1TjKmDueCEJuk9Q+ADLS7jmVfdfGxp0vI5o/gOjbA1OwOYMVfg249+9vjYa7w==
+  dependencies:
+    dafo "^0.1.1"
+    noda "^0.6.0"
+    qir "^0.1.0"
 
 diff@^4.0.1:
   version "4.0.2"
@@ -555,6 +571,16 @@ native-fetch@^3.0.0:
   resolved "https://registry.yarnpkg.com/native-fetch/-/native-fetch-3.0.0.tgz#06ccdd70e79e171c365c75117959cf4fe14a09bb"
   integrity sha512-G3Z7vx0IFb/FQ4JxvtqGABsOTIqRWvgQz6e+erkB+JJD6LrszQtMozEHI4EkmgZQvnGHrpLVzUWk7t4sJCIkVw==
 
+noda@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/noda/-/noda-0.1.2.tgz#6c3afd6072c40aacf22dbf54150ded149995b6ca"
+  integrity sha512-oP5xzQsC4dujsuRlshsnb2R+0BWJmPRJx8MXQlTgbrSSqi5Szeu67Lr8Od1/lkc+8evLPRDmHl9L0xeVJYRGaw==
+
+noda@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/noda/-/noda-0.6.0.tgz#cf8e0cd9542eec38f1762ff43eb28e3446f5d080"
+  integrity sha512-Zj3eTQ1cL83zGvorxbGmeqNnt/h+2nH3jT/XLI2oXHL9LH6IKoPvFh6feT1e/yFhRRByP3Q+waM+2dcXIdZkqg==
+
 node-fetch@^2.6.8:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.7.0.tgz#d0f0fa6e3e2dc1d27efcd8ad99d550bda94d187d"
@@ -598,6 +624,13 @@ protobufjs@^6.10.2:
     "@types/long" "^4.0.1"
     "@types/node" ">=13.7.0"
     long "^4.0.0"
+
+qir@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/qir/-/qir-0.1.0.tgz#fce4fd28a4ebf538b015e8a3feff1959361a3455"
+  integrity sha512-LJUKDMyPsaog5uDarzqterz+SfdyA3mfvq45kSLV0X5IOSPy/nlueKvLg8nClOSKp57c1E0bU/BFHwHFUoVhcw==
+  dependencies:
+    noda "^0.6.0"
 
 react-native-fetch-api@^3.0.0:
   version "3.0.0"
