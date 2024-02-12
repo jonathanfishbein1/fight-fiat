@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://simulator-desktop.starcada.io/","cdnUrl":"https://pxt.azureedge.net","version":"2.0.0","target":"arcade","targetVersion":"1.13.57","repo":"jonathanfishbein1/fight-fiat"}
+// meta={"simUrl":"https://simulator-mobile.starcada.io/","cdnUrl":"https://pxt.azureedge.net","version":"2.0.0","target":"arcade","targetVersion":"1.13.57","repo":"jonathanfishbein1/fight-fiat"}
 // total=1875579 new=9.15% cached=85.93% other=4.92%
 (function (ectx) {
 'use strict';
