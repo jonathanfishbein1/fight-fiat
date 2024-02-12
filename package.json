@@ -6,7 +6,7 @@
   "scripts": {
     "build-develop": "cp -r assets ./build/develop && cp ./fleek/fleek.config.develop.json ./build/develop/assets/fleek.config.json && deno run -A /home/jonathan/Documents/starcada-utils/replaceSimulatorUrl.ts develop ./",
     "build-main-desktop": "cp ./fleek/fleek.config.main.desktop.json ./build/main-desktop/fleek.config.json && deno run -A /home/jonathan/Documents/starcada-utils/replaceSimulatorUrl.ts main-desktop ./",
-    "build-main-mobile": "cp ./fleek/fleek.config.main.mobile.json ./build/main-mobile/fleek.config.json && deno run -A /home/jonathan/Documents/starcada-utils/replaceSimulatorUrl.ts main-mobile ./"
+    "build-main-mobile": "cp -r assets ./build/main-mobile && cp ./fleek/fleek.config.main.mobile.json ./build/main-mobile/assets/fleek.config.json && deno run -A /home/jonathan/Documents/starcada-utils/replaceSimulatorUrl.ts main-mobile ./"
   },
   "author": "",
   "license": "ISC",
